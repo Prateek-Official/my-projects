@@ -1,0 +1,59 @@
+.product-container{
+    padding: 8px 0;
+}
+
+.product-heading{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.product-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.product-card{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; 
+}
+
+.pagination{
+    text-align: center;
+}
+
+.active{
+    background-color: aqua;
+}
+
+.page-number{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px 12px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product-body, .pagination{
+    margin: 16px 0;
+}
+
+.home-btn{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px
+    /* border: 1px solid black */
+}
