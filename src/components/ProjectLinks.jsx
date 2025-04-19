@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 const ProjectLinks = () => {
   return (
     <div className="my-4 text-lg flex justify-center">
@@ -17,10 +16,13 @@ const ProjectLinks = () => {
           <Link to="/productspagination">Products Pagination</Link>
         </li>
 
-        
-          <li className="px-4 py-2 list-disc border hover:bg-black hover:text-white rounded-lg w-[30%] flex-grow">
-            <Link to="/todoapp">Todo List App</Link>
-          </li>
+        <li className="px-4 py-2 list-disc border hover:bg-black hover:text-white rounded-lg w-[30%] flex-grow">
+          <Link to="/todoapp">Todo List App</Link>
+        </li>
+
+        <li className="px-4 py-2 list-disc border hover:bg-black hover:text-white rounded-lg w-[30%] flex-grow">
+          <Link to="/countdowntimer">Countdown Timer</Link>
+        </li>
       </ul>
     </div>
   );

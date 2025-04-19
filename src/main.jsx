@@ -10,6 +10,7 @@ import MoviesContainer from './components/Movie App/components/MoviesContainer';
 import OtpContainer from "./components/OTP_INPUT/OtpContainer.jsx";
 import ProductsContainer from "./components/Products_Pagination/components/ProductsContainer.jsx";
 import TodoHome from "./components/Todo_List_App/components/TodoHome.jsx";
+import CountdownContainer from "./components/Countdown_Timer/components/CountdownContainer.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -41,7 +42,11 @@ const appRouter = createBrowserRouter([
   {
     path:"/todoapp",
     element: <TodoHome />
-  }
+  },
+  {
+    path:"/countdowntimer",
+    element: <CountdownContainer />
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
